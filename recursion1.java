@@ -1,4 +1,4 @@
-// recursion function
+// recursion function to count factorial of a number
 import java.util.Scanner;
 
 class Factorial {
