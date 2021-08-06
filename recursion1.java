@@ -10,7 +10,7 @@ class Factorial {
         return result;
     }
 }
-class recursion1{
+public class recursion1{
     public static void main(String args[]){
         Factorial f= new Factorial();
         int n;
