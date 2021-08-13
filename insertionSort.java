@@ -4,7 +4,7 @@ public class insertionSort {
     
     static void sort(int[] arr){
 
-        int key, n, temp;
+        int key, n;
         n=arr.length;
         for(int i=1; i<n; i++){
             key=arr[i];
@@ -14,7 +14,6 @@ public class insertionSort {
                 j=j-1;
             }
             arr[j+1]=key;
-            System.out.println(arr[j]);
         }
     }
 
